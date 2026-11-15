@@ -1,2 +1,19 @@
-# A2P-seedance-skills
-LingGuo Seedance prompt-planning skill and validated example cases
+# A2P Seedance Skills
+
+本仓库保存 `lingguo-seedance-master` Skill 及其演示案例。Skill 的默认终点是**可直接用于 Seedance 的提示词交付包**，不默认生成视频成片。
+
+## 工作流程
+
+1. 读取用户的初始资料，区分事实、目标、限制和暂定假设。
+2. 提出创意方向、玩法与视觉风格，并展开一份完整推荐方案供确认。
+3. 方案确认后，连续完成素材职责表、素材生成提示词、分镜、Seedance 主提示词及必要的分段提示词。
+4. 检查事实依据、素材编号、时间轴、连续性、平台设置和提示词冲突，再交付最终版本。
+
+入口：[lingguo-seedance-master/SKILL.md](lingguo-seedance-master/SKILL.md)。使用时可显式调用 `$lingguo-seedance-master`。
+
+## 案例
+
+- [两阶段流程验收](cases/两阶段验收-气泡水/04-验收记录.md)：虚构初始资料、待确认创意方案、模拟确认后的提示词包及自检。模拟确认不代表真实客户批准。
+- [气泡水广告演示](cases/气泡水广告-15秒/案例.md)：概念参考图与 15 秒分镜动态预演。预演由静态图制作，不是 Seedance 成片。
+
+平台能力和素材引用方式会随模型及使用界面变化，实际项目按目标平台当前官方文档核对。未经用户另行要求，本 Skill 不提交生成、剪辑或发布视频。
