@@ -2,12 +2,15 @@
 
 本仓库保存 `lingguo-seedance-master` Skill 及其演示案例。Skill 的默认终点是**可直接用于 Seedance 的提示词交付包**，不默认生成视频成片。
 
-## 工作流程
+## 工作流程（五关卡，每关停下等用户确认）
 
-1. 读取用户的初始资料，区分事实、目标、限制和暂定假设。
-2. 提出创意方向、玩法与视觉风格，并展开一份完整推荐方案供确认。
-3. 方案确认后，连续完成素材职责表、素材生成提示词、分镜、Seedance 主提示词及必要的分段提示词。
-4. 检查事实依据、素材编号、时间轴、连续性、平台设置和提示词冲突，再交付最终版本。
+0. **资料体检**：读取客户资料，区分事实、目标、限制与假设，最多问 3 个关键问题。
+1. **方向与玩法锁定**：从[玩法卡库](lingguo-seedance-master/references/play-cards.md)推荐最多 3 张卡，用户一次选定玩法、风格、规格、声音与参考图范围。
+2. **参考图**：先出电商图/产品参考图的生成提示词（有工具且获同意才实际生成），确认后再往下。
+3. **视频方案与提示词**：分镜、Seedance 主提示词及必要的分段提示词，并自检。
+4. **交付与迭代**：后期调整按[变更控制](lingguo-seedance-master/references/change-control.md)先报影响范围再执行。
+
+用户说“直接做”可走快速通道，把关卡 1–3 合并为一次确认。项目状态记录在 `templates/` 下的 brief 与 decisions，便于换会话或换 AI 接续。
 
 入口：[lingguo-seedance-master/SKILL.md](lingguo-seedance-master/SKILL.md)。使用时可显式调用 `$lingguo-seedance-master`。
 
