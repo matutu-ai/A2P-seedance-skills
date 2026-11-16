@@ -1,0 +1,15 @@
+{
+  "prompt_file": "完整提示词包.md",
+  "archive": "参考图-图片1至图片8.zip",
+  "assets_dir": "参考图-图片1至图片8",
+  "assets": [
+    {"token": "@图片1", "file": "图片1-办公女士原图.png"},
+    {"token": "@图片2", "file": "图片2-功夫女孩原图.png"},
+    {"token": "@图片3", "file": "图片3-咖啡机产品原图.png"},
+    {"token": "@图片4", "file": "图片4-办公室空场景.png"},
+    {"token": "@图片5", "file": "图片5-单颗咖啡豆.png"},
+    {"token": "@图片6", "file": "图片6-女士接咖啡.png"},
+    {"token": "@图片7", "file": "图片7-女士办公桌.png"},
+    {"token": "@图片8", "file": "图片8-AURBREW品牌收尾参考.png"}
+  ]
+}
